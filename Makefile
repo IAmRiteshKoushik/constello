@@ -1,6 +1,6 @@
 build:
-	@go build -o bin/fs
+	@go build -o bin/constello
 run: build
-	@./bin/fs
+	@./bin/constello
 test:
 	@go test ./... -v
